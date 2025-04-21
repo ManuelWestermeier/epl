@@ -1,8 +1,22 @@
 @fn start
-    @set num to n 2828
-    @set output to s HELLO, @num@ WORLD
-    @out output
-    @strref set output to num
-    @strref get output in test
-    @out test
+  @set num to n 2828
+  @set output to s HELLO, @num@ WORLD
+  @out output
+
+  @set index to n 2
+  @at get char to output index
+  @out char
+
+  @operate index to index * index
+  @at set output index to char
+  @out char
+
+  @out output
+
+  @strref set output to num
+  @strref get output in test
+  @out test
+
+  @operate output to output == output
+  @out output
 @end
