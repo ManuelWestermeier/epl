@@ -1,0 +1,8 @@
+@fn start
+    @set num to n 2828
+    @set output to s HELLO, @num@ WORLD
+    @out output
+    @strref set output to num
+    @strref get output in test
+    @out test
+@end
